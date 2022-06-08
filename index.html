@@ -12,7 +12,7 @@
     <!-- header start -->
     <header>
         <!-- navbar  -->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#">
                   <img src="images/logo.png" alt="">
@@ -26,13 +26,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#bages">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
                   </li>
                 </ul>
               </div>
@@ -121,7 +121,7 @@
         </section>
 
       <!-- shoes -->
-      <section class="container my-5">
+      <section class="container my-5" id="shoes">
         <h2>Shoes</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
           <div class="col">
@@ -167,7 +167,7 @@
       </section>
 
       <!-- bages -->
-      <section class="container my-5">
+      <section class="container my-5" id="bages">
         <h2>Bagpack</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
           <div class="col">
@@ -212,8 +212,21 @@
           </div>
         </div>
       </section>
+
+      <!-- subscribe -->
+      <section style="height:300px ;" id="subscribe" class="container d-flex justify-content-center align-items-center bg-danger rounded">
+        <div>
+          <h1>LET'S STAY IN TOUCH</h1>
+          <p>Get updates on sales, specials and more</p>
+          <input type="text" placeholder="Enter Your Email">
+          <br><br>
+          <button class="btn btn-warning">SUBMIT</button>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="mt-5">
+      <p class="text-center"><small>©2020. Simple e-commerce. All rights reserved. Sayed Sumon, Bangladesh.</small></p>
+    </footer>
     <!-- bootstrap script sheet -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
